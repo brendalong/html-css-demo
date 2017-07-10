@@ -1,5 +1,5 @@
 body{
-	background-color: DarkCyan;
+	background-color: darkcyan;
 }
 
 nav {
@@ -29,7 +29,7 @@ nav li a:hover {
 }
 
 h1, h2, h3 {
-	color: Crimson;
+	color: crimson;
 }
 
 h1 {
@@ -53,8 +53,31 @@ footer {
 	clear: both;
 }
 
+/* add some flexbox styles
+great examples: https://www.w3schools.com/css/css3_flexbox.asp
+*/
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    background-color: azure;
+    -webkit-justify-content: center;
+	justify-content: center;
+}
 
 
+.flex-item {
+    background-color: hotpink;
+    width: 30%;
+    margin: 10px;
+}
+
+.img-main {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
 
 
 
