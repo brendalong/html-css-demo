@@ -53,9 +53,6 @@ footer {
 	clear: both;
 }
 
-/* add some flexbox styles
-great examples: https://www.w3schools.com/css/css3_flexbox.asp
-*/
 
 .flex-container {
     display: -webkit-flex;

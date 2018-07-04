@@ -4,13 +4,11 @@
 * Structure
 * Content
 * Styling
+    * Start general and get more specific
 
-
-## The witches page uses Flexbox
-
-Notes:
-* Everything outside a flex container and inside a flex item is rendered as usual.
-* The flex container is declared by setting the display property of an element to either flex (rendered as a block) or inline-flex (rendered as inline).
+### Notes:
+* Everything outside a flex container and inside a flex item is **rendered as usual**.
+* The flex container is declared by setting the display property of an element to either `flex` (rendered as a block) or `inline-flex` (rendered as inline).
 * Lined up with the flex line.
 
 ### More
@@ -40,3 +38,7 @@ center - Items are positioned at the center of the container
 space-between - Items are positioned with space between the lines
 space-around - Items are positioned with space before, between, and after the lines
 ```
+
+## Resources
+* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+* https://www.w3schools.com/css/css3_flexbox.asp
